@@ -1,0 +1,3 @@
+# Unhandled Firebase Initialization Errors
+
+This repository demonstrates a common yet tricky issue in Firebase applications: unhandled initialization errors.  These errors can manifest in various ways due to the asynchronous nature of Firebase operations.  The example provided shows a scenario where attempting to access Firebase Authentication before the SDK is fully initialized leads to undefined behavior and cryptic error messages. The solution focuses on using promises and async/await to ensure initialization completes before accessing Firebase services.
